@@ -17,4 +17,4 @@ def make_trial(st):
 
    # Display the dataframe as a table
    st.write("Sample DataFrame")
-   st.dataframe(df, index=False)
+   st.dataframe(df)

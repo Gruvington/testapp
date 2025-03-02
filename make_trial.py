@@ -8,9 +8,9 @@ def make_trial(st):
 
    # Create a sample dataframe
    data = {
-    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
-    'Age': [25, 30, 35, 40],
-    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']
+    'Name': ['Vitacress 1', 'Vitacress 2', 'Flavourfresh 1', 'Flavourfresh 2'],
+    'Start Date': ['2024-01-01', '2024-02-17', '2025-03-01', '2025-03-02'],
+    'Location': ['Aldergrove', 'Aldergrove', 'Bristop', 'Bristol']
 }
 
    df = pd.DataFrame(data)

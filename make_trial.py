@@ -15,6 +15,9 @@ def make_trial(st):
 
    df = pd.DataFrame(data)
 
+   # Hide the row index
+   df.index = [''] * len(df)
+
    # Display the dataframe as a table
    st.write("Sample DataFrame")
    st.dataframe(df)

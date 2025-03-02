@@ -7,7 +7,7 @@ def make_trial(st):
     'Name': ['Vitacress 1', 'Vitacress 2', 'Flavourfresh 1', 'Flavourfresh 2'],
     'Start Date': ['2024-01-01', '2024-02-17', '2025-03-01', '2025-03-02'],
 'End Date': ['2024-01-04', '2024-02-23', '2025-03-03', '2025-03-09'],
-    'Location': ['Aldergrove', 'Aldergrove', 'Bristop', 'Bristol']
+    'Location': ['Aldergrove', 'Aldergrove', 'Bristol', 'Bristol']
 }
 
    df = pd.DataFrame(data)
